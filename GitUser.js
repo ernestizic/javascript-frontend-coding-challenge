@@ -51,7 +51,7 @@ export default class GitUser {
       return listItems
     }
   
-    // Adapted from https://stackoverflow.com/a/45984973/4718107
+    
     createArrowEventListener() {
       const ul = this.listEl
       let liSelected
