@@ -34,7 +34,7 @@ ul {
 }
 
 form {
-  display: flex;
+  display: block;
 }
 
 .form-group + .form-group {
@@ -46,4 +46,10 @@ input {
   width: 100%;
   padding: 5px;
   border: 1px solid #ccc;
+}
+
+.gh-users-group {
+  background: red;
+  
+  border: 1px solid black;
 }
